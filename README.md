@@ -1,6 +1,6 @@
 # Omarchy ISO
 
-The Omarchy ISO streamlines [the installation of Omarchy](https://learn.omacom.io/2/the-omarchy-manual/50/getting-started). It includes the Omarchy Configurator as a front-end to archinstall and automatically launches the [Omarchy Installer](https://github.com/basecamp/omarchy) after base arch has been setup.
+The Omarchy ISO streamlines [the installation of Omarchy](https://learn.omacom.io/2/the-omarchy-manual/50/getting-started). It includes the Omarchy Configurator as a front-end to archinstall and automatically launches the [Omarchy Installer](https://github.com/CodySwagor/omarchy) after base arch has been setup.
 
 ## Downloading the latest ISO
 
@@ -14,7 +14,7 @@ Run `./bin/omarchy-iso-make` and the output goes into `./release`. You can build
 
 You can customize the repositories used during the build process by passing in variables:
 
-- `OMARCHY_INSTALLER_REPO` - GitHub repository for the installer (default: `basecamp/omarchy`)
+- `OMARCHY_INSTALLER_REPO` - GitHub repository for the installer (default: `CodySwagor/omarchy`)
 - `OMARCHY_INSTALLER_REF` - Git ref (branch/tag) for the installer (default: `master`)
 
 Example usage:
